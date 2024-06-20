@@ -3,8 +3,11 @@ boot alphine from network
 
 #file download https://dl-cdn.alpinelinux.org/alpine/edge/releases/aarch64/netboot/
 #              https://dl-cdn.alpinelinux.org/alpine/edge/releases/armv7/netboot/
+
 #wget https://dl-cdn.alpinelinux.org/alpine/edge/releases/armv7/netboot/vmlinuz-lts
+
 #wget https://dl-cdn.alpinelinux.org/alpine/edge/releases/armv7/netboot/initramfs-lts
+
 # The console argument is required to get console output
 
 
@@ -19,7 +22,9 @@ qemu-system-arm \
   -nographic
 
 #wget https://dl-cdn.alpinelinux.org/alpine/edge/releases/aarch64/netboot/vmlinuz-lts
+
 #wget https://dl-cdn.alpinelinux.org/alpine/edge/releases/aarch64/netboot/initramfs-lts
+
   #aarch64
   
   qemu-system-aarch64 \
