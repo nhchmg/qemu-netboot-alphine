@@ -9,6 +9,7 @@ boot alphine from network
 
 
 #arm
+
 qemu-system-arm \
   -M virt -m 256M -cpu cortex-a15 \
   -kernel vmlinuz-lts -initrd initramfs-lts \
@@ -20,6 +21,7 @@ qemu-system-arm \
 #wget https://dl-cdn.alpinelinux.org/alpine/edge/releases/aarch64/netboot/vmlinuz-lts
 #wget https://dl-cdn.alpinelinux.org/alpine/edge/releases/aarch64/netboot/initramfs-lts
   #aarch64
+  
   qemu-system-aarch64 \
   -M virt -m 256M -cpu cortex-a57 \
   -kernel vmlinuz-lts -initrd initramfs-lts \
